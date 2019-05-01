@@ -1,0 +1,13 @@
+{
+  "name": "recurlybot",
+  "description": "Slack bot to notify new Recurly subscriptions",
+  "runtime": "nodejs8.10",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::XXXXXX:role/recurlybot_lambda_function",
+  "environment": {
+    "SLACK_CHANNEL": "recurlybot-tests",
+    "SLACK_URL": "https://hooks.slack.com/services/XXXXX",
+    "PROFILE_URL": "https://XXXXX.recurly.com/accounts/{accountId}"
+  }
+}

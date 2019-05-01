@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+
+# apex config files
+project.json
+function.json
