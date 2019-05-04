@@ -8,6 +8,9 @@
   "environment": {
     "SLACK_CHANNEL": "recurlybot-tests",
     "SLACK_URL": "https://hooks.slack.com/services/XXXXX",
-    "PROFILE_URL": "https://XXXXX.recurly.com/accounts/{accountId}"
+    "PROFILE_URL": "https://XXXXX.recurly.com/accounts/{accountId}",
+    "RECURLY_APIKEY": "",
+    "RECURLY_SUBDOMAIN": "",
+    "RECURLY_ENV": "staging"
   }
 }
